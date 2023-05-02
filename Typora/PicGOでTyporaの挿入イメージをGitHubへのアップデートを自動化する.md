@@ -1,10 +1,21 @@
-# PicGOでTyporaの挿入イメージをGitHubへのアップデートを自動化する
+# スピードなブログ投稿：PicGOでTyporaの挿入イメージをGitHubへのアップデートを自動化する
 
 ## 背景
 
 Githubはブログとして使いたい。
 
 手順：ローカルで書いたMarkdownノートをGithubのパブリックレポジトリへプッシュすることで、文章を発行する。
+
+#### 作成した後に驚いた補足
+
+ローカル作成した文章をGitHubの個人アカウントにホスティングだけでなく、MarkdownのソースコードをQittaにそのままコピペすると、一秒で投稿できる！
+
+この機能はQittaにある事実がよくわかるが（更にブログ作成のため一番重要な編集機能を思う）、Qittaの文章を何回も編集してから、スパムアカウントと見られ、使えなくなるよ。
+
+つまり、たくさんで複数回のコミットはGitとGithubに任せるのがいいな。
+
+![image-20230502134708743](https://raw.githubusercontent.com/HenryLee24/figure/main/image-20230502134708743.png)
+
 
 ## 問題
 
@@ -36,7 +47,13 @@ PicGoとはImageHostを自動的に作成、アップデートするサービス
 
 ImageHostというものはイメージをネットで格納する場所。
 
-残念だが、PicGoは中国語しかサポートしていない。
+
+
+残念だが、PicGoは中国語とEnglish両方しかサポートしていない。こちらは中国語の設置方法を紹介する。Englishに切り替える方法は以下になる。
+
+![image-20230502135954730](https://raw.githubusercontent.com/HenryLee24/figure/main/image-20230502135954730.png)
+
+
 
 Typoraは人気なMarkdown編集ソフトウェア。
 
