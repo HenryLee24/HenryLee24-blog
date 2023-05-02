@@ -11,6 +11,22 @@
 
 ![image-20230502094538464](C:\HenryLee24-blog\Git\assets\VS Codeでファイルを開く.png)
 
+4. Gitアカウントを変更する
+
+表示する
+
+```
+git config --global user.name
+git config --global user.email
+```
+
+変更する
+
+```
+git config --global user.name "HenryLee24"
+git config --global user.email "hench.listudy@gmail.com"	
+```
+
 4. Quick setupを参照する
 
 ![image-20230502094859373](C:\HenryLee24-blog\Git\assets\Quick setupを参照する.png)
@@ -94,3 +110,24 @@ ssh -T git@github.com
 
 ![image-20230502102442762](C:\HenryLee24-blog\Git\assets\秘密鍵はここに保存されている.png)
 
+9. リモートリポジトリへプッシュする（本番）
+
+```
+git push -u origin main
+```
+
+これは認証成功のシンボル。
+
+![image-20230502103707996](C:\HenryLee24-blog\Git\assets\これは認証成功のシンボル.png)
+
+この操作で、ローカルのGitとリモートのGitHubは繋がる。
+
+![image-20230502104217600](C:\HenryLee24-blog\Git\assets\ローカルのGitとリモートのGitHubは繋がる.png)
+
+そのアクセス権限はあげると、プッシュ操作も完了になる。
+
+![image-20230502104443056](C:\HenryLee24-blog\Git\assets\プッシュ操作も完了になる.png)
+
+最終的に、ローカルのファイルをGitHubのリモートリポジトリへプッシュした。
+
+![image-20230502104540009](C:\HenryLee24-blog\Git\assets\プッシュした.png)
